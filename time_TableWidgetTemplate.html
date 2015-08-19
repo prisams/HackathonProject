@@ -1,0 +1,23 @@
+<div>
+  <!-- Display data source name and the number of features -->
+  <label class="dataSourceInfoLabel" data-dojo-attach-point="infoLabel"></label>
+
+  <!-- Show the features on an attribute table-->
+  <!-- Add the dgrid-autoheight class to the table
+  so that its height will auto-adjust based on the contents -->
+  <table class="dgrid-autoheight" data-dojo-attach-point="gridDiv"></table>
+  <div id="footer">
+    <br>
+    <p align="center"><b>Click to view the data for each month</b><br><br>
+    <button data-dojo-attach-point="button1" type="button" data-dojo-attach-event="onClick:DateEvent1"
+            style="background-color: #2ECCFA; border-top: 2px solid #5f6c4d;
+      border-right: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #5f6c4d; width: 80px; height: 24px;
+      font-weight: bold; width:50%; height:200%;"><b>May</b></button><br><br>
+
+    <button data-dojo-attach-point="button1" type="button" data-dojo-attach-event="onClick:DateEvent2"
+            style="background-color: #2ECCFA; border-top: 2px solid #5f6c4d;
+      border-right: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #5f6c4d; width: 80px; height: 24px;
+      font-weight: bold; width:50%; height:200%;"><b>July</b></button>
+    </p>
+  </div>
+</div>
